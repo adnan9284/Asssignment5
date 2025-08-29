@@ -24,7 +24,6 @@ the differences are given below:
 
 2. How do you **create and insert a new element into the DOM**?
         element is created by createElement().And inserted by appendChild() method.
-        Ex.  div.appendChild(document.createElement('p'));
 
 3. What is **Event Bubbling** and how does it work?
         Event bubbling is a mechanism in the DOM event where an event starts at the deepest target element and then bubbles up to its ancestors.When an event is fired on the child it bubbles up to it's parent then again it bubbles up to it's parent(grandparent) then it will be bubbled to document and then to window.
